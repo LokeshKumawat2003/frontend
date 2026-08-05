@@ -20,7 +20,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   }
 
   return (
-    <DashboardShell title="Dashboard" description="" showHeader={false}>
+    <DashboardShell title="Dashboard" description="">
       {children}
     </DashboardShell>
   );
